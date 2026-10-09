@@ -20,4 +20,4 @@ ROADMAP.md   estado y orden
 ```
 Después, pedir al agente `theme-builder` que monte el sitio y el theme. Antes de ejecutar nada, el agente pregunta nombre del sitio, del theme y text domain.
 
-Los scripts de `skills/00-wp-limpio/scripts/` también se pueden usar sin IA.
+Los scripts de `skills/00-wp-instalar/scripts/ y skills/02-wp-limpio/scripts/` también se pueden usar sin IA.
