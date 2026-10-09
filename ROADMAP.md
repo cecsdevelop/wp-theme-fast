@@ -4,8 +4,9 @@ Regla: cada episodio se hace **a mano en cámara**, y su skill se escribe **desp
 
 | Ep | Tema | Skill | Estado |
 |---|---|---|---|
-| 0 | WordPress limpio | `wp-limpio` | Probada en un sitio descartable (MAMP, WordPress en español) |
+| 0a | Instalar WordPress | `wp-instalar` | Probada en un sitio descartable (MAMP, WordPress en español) |
 | 1 | Theme mínimo | `theme-minimo` | Probada: WordPress lo reconoce y activa |
+| 0b | Dejar WordPress vacío | `wp-limpio` | Probada: se niega sin theme propio y limpia correctamente |
 | 2+ | Bootstrap, autoloader, módulos, assets, CPT, paneles | — | En preparación |
 
 ## Requisitos

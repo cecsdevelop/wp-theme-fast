@@ -7,6 +7,8 @@ description: Crea el theme clásico mínimo de WordPress (style.css con cabecera
 
 Entradas: `NOMBRE-THEME` (nombre visible), `nombretheme` (slug de carpeta y text domain, minúsculas sin espacios).
 
+Requisito: WordPress ya instalado con la skill `wp-instalar`.
+
 ## Flujo
 
 1. Crear `wp-content/themes/nombretheme/`.
