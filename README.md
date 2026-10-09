@@ -14,10 +14,14 @@ ROADMAP.md   estado y orden
 - macOS con MAMP (Apache 8888, MySQL 8889).
 - Claude Code.
 
-## Uso
+## Instalación
 ```bash
-./install.sh
+git clone https://github.com/cecsdevelop/wp-theme-fast.git ~/wp-theme-fast
+cd ~/wp-theme-fast && ./install.sh
 ```
-Después, pedir al agente `theme-builder` que monte el sitio y el theme. Antes de ejecutar nada, el agente pregunta nombre del sitio, del theme y text domain.
+No lo clones dentro de `htdocs`: es la herramienta, no un sitio. `install.sh` enlaza las skills y el agente en `~/.claude` y no sobrescribe nada que ya exista.
 
-Los scripts de `skills/00-wp-instalar/scripts/ y skills/02-wp-limpio/scripts/` también se pueden usar sin IA.
+## Uso
+Abre una sesión **nueva** de Claude Code (las skills se cargan al iniciar) y pide, por ejemplo: "Usa el agente theme-builder para montar un sitio llamado X con el theme Y". El agente pregunta nombre del sitio, del theme y text domain antes de ejecutar nada, y se detiene en el instalador web para que lo completes tú.
+
+Los scripts de `skills/00-wp-instalar/scripts/` y `skills/02-wp-limpio/scripts/` también se pueden usar sin IA.
